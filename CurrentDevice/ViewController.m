@@ -16,7 +16,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    UIDevice *device=[UIDevice currentDevice];
+    
+    NSLog(@"name: %@",device.name);
+    NSLog(@"systemName: %@",device.systemName);
+    NSLog(@"systemVersion: %@",device.systemVersion);
+    NSLog(@"model: %@",device.model);
+    NSLog(@"localizedModel: %@",device.localizedModel);
+    NSLog(@"identifierForVendor: %@",device.identifierForVendor);
+    NSLog(@"batteryLevel: %f",device.batteryLevel);
+    NSLog(@"batteryState: %ld",device.batteryState);
+    NSLog(@"orientation: %ld",device.orientation);
+    NSLog(@"*** App Version = %@",[[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]);
 }
 
 - (void)didReceiveMemoryWarning {

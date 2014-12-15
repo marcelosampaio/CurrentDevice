@@ -412,6 +412,7 @@
 				9C5F1D101A30E48F00579731 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C5F1D111A30E48F00579731 /* Build configuration list for PBXNativeTarget "CurrentDeviceTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +421,7 @@
 				9C5F1D131A30E48F00579731 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
